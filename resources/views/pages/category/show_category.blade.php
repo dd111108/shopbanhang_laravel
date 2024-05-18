@@ -2,8 +2,8 @@
 @section('content')
 
 <div class="features_items"><!--features_items-->
-    <h2 class="title text-center">Sản phẩm mới nhất</h2>
-    @foreach ($all_product as $product)
+    <h2 class="title text-center">Danh mục sản phẩm</h2>
+    @foreach ($category_by_id as $product)
     <div class="col-sm-4">
         <div class="product-image-wrapper">
             <div class="single-products">
